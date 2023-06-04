@@ -23,7 +23,7 @@
 # except ValueError as error:
 #     print("\tEnter only integer numbers please!")
 # except Exception as error:
-#     print(f"\tError: {error}")
+#     print(f"\tError:{error}")
 #
 # # 2. Пользователь вводит два числа. Определить, равны ли эти числа, и, если нет, вывести их
 # # на экран в порядке возрастания
@@ -42,7 +42,7 @@
 # except ValueError as error:
 #     print(f"\tError: Please enter only int or float numbers")
 # except Exception as error:
-#     print(f"\tError: {error}")
+#     print(f"\tError:{error}")
 #
 # # 3. Пользователь вводит два числа и матем действие: + - * или /
 # # В зависимости от введенного матем действия вывести результат
@@ -60,10 +60,10 @@
 #     elif math_action == "/":
 #         print("\tResult:", num_1/num_2)
 #     else:
-#         raise Exception("Please choose valid mathematical operations.")
+#         raise Exception("\tPlease choose valid mathematical operations.")
 # except ValueError as error:
-#     print("Error: Please enter correct information.")
+#     print("\tError: Please enter correct information.")
 # except ZeroDivisionError as error:
-#     print("Error: You can't divide by zero.")
+#     print("\tError: You can't divide by zero.")
 # except Exception as error:
-#     print(f"Error: {error}.")
+#     print(f"\tError:{error}")
